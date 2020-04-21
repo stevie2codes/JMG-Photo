@@ -1,0 +1,25 @@
+@import "./variables";
+
+.navbar-brand {
+  font-family: $primaryFont;
+}
+.nav-link {
+  font-family: $secondaryFont;
+}
+.dropdown-item {
+  font-family: $secondaryFont;
+}
+.navbar {
+  background-color: $white;
+  border-bottom: 1px solid black;
+}
+.dropdown-menu {
+  background-color: $white !important;
+}
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
+// svg .navbar-toggler-icon {
+//   stroke: indianred !important;
+// }
