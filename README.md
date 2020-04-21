@@ -1,0 +1,2 @@
+# JMG-Photo
+Photography Portfolio
