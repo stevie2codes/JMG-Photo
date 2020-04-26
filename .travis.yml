@@ -5,8 +5,8 @@ cache:
   npm: true
   directories:
     - node_modules
-script:
-  - npm run test
+ script:
+  - echo "skipping tests"
 before_deploy:
   - npm global add travis-ci-cloudfront-invalidation
   - npm run build
