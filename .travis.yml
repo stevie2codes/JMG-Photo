@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8"
+  - "12.5.0"
 cache:
   npm: true
   directories:
@@ -8,8 +8,8 @@ cache:
 script:
   - npm run test
 before_deploy:
-  - npm run global add travis-ci-cloudfront-invalidation
-  - npm run run build
+  - npm global add travis-ci-cloudfront-invalidation
+  - npm run build
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY_ID
