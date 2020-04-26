@@ -3,11 +3,8 @@ node_js:
   - "8"
 before_install:
   - npm i -g npm@6.1.0
-  - npm install
-  dist: trusty
-install:
-  - npm i -g npm@6 
   - npm ci
+  dist: trusty
 script:
   - echo "skipping tests"
 before_deploy:
