@@ -34,7 +34,7 @@ const Landscape = () => {
               ></Image>
             </CloudinaryContext> */}
           </div>
-          <div className="col-6 col-md-4 box">.col-6 .col-md-4</div>
+          <div className="col-6 col-md-4 box">.newcol .col-md-4</div>
           <div className="col-6 col-md-4 box">.col-6 .col-md-4</div>
         </div>
 
