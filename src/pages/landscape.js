@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import NavBar from "../components/nav_bar";
 import "../sass/landscapes.scss";
-import axios from "axios";
-import { CloudinaryContext, Transformation, Image } from "cloudinary-react";
+// import axios from "axios";
+// import { CloudinaryContext, Transformation, Image } from "cloudinary-react";
 
 const Landscape = () => {
   return (
@@ -11,7 +11,7 @@ const Landscape = () => {
       <div class="container">
         <div className="row no-gutters  ">
           <div className="col-7 ">
-            <CloudinaryContext cloudName="df9q0hnuw">
+            {/* <CloudinaryContext cloudName="df9q0hnuw">
               <Image className="img" publicId="jg-photo/heroLights.jpg"></Image>
             </CloudinaryContext>
           </div>
@@ -32,7 +32,7 @@ const Landscape = () => {
                 className="img"
                 publicId="jg-photo/DSC_2855_1_n2p1dh.jpg"
               ></Image>
-            </CloudinaryContext>
+            </CloudinaryContext> */}
           </div>
           <div className="col-6 col-md-4 box">.col-6 .col-md-4</div>
           <div className="col-6 col-md-4 box">.col-6 .col-md-4</div>
