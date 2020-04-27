@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import NavBar from "../components/nav_bar";
 import "../sass/landscapes.scss";
 // import axios from "axios";
