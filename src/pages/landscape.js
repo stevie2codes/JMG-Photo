@@ -8,7 +8,7 @@ const Landscape = () => {
   return (
     <div>
       <NavBar />
-      <div class="container">
+      <div className="container">
         <div className="row no-gutters  ">
           <div className="col-7 ">
             {/* <CloudinaryContext cloudName="df9q0hnuw">

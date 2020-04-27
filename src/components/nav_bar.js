@@ -31,14 +31,14 @@ class NavBar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  to="/portfolio"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -46,24 +46,24 @@ class NavBar extends Component {
                   aria-expanded="false"
                 >
                   Portfolio
-                </a>
+                </Link>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <Link to="/landscapes" className="dropdown-item">
                     Landscapes
                   </Link>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/weddings">
                     Weddings
-                  </a>
+                  </Link>
                   <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="/furryFriends">
                     Furry Freinds
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <div class="wrapper">
-        <div class="box a">NEWBOX</div>
-        <div class="box b">B</div>
-        <div class="box c">C</div>
-        <div class="box d">D</div>
+      <div className="wrapper">
+        <div className="box a">NEWBOX</div>
+        <div className="box b">B</div>
+        <div className="box c">C</div>
+        <div className="box d">D</div>
       </div>
     </div>
   );
