@@ -5,16 +5,19 @@
 }
 .nav-link {
   font-family: $secondaryFont;
+  color: $red !important;
 }
+
 .dropdown-item {
   font-family: $secondaryFont;
+  color: $red;
 }
 .navbar {
-  background-color: greenyellow;
-  border-bottom: 1px solid black;
+  background-color: transparent;
+  height: 100px;
 }
 .dropdown-menu {
-  background-color: $white !important;
+  background-color: $softBlue !important;
 }
 .navbar-toggler {
   border-color: transparent !important;

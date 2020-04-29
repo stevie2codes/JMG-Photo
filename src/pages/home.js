@@ -6,11 +6,9 @@ const Home = () => {
   return (
     <div>
       <NavBar />
+
       <div className="wrapper">
-        <div className="box a">NEWBOX</div>
-        <div className="box b">B</div>
-        <div className="box c">C</div>
-        <div className="box d">D</div>
+        <div className="name">Atlas-Photo</div>
       </div>
     </div>
   );
