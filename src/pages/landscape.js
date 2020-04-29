@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../components/nav_bar";
+
 import "../sass/landscapes.scss";
 // import axios from "axios";
 // import { CloudinaryContext, Transformation, Image } from "cloudinary-react";
@@ -7,7 +7,6 @@ import "../sass/landscapes.scss";
 const Landscape = () => {
   return (
     <div>
-      <NavBar />
       <div className="container">
         <div className="row no-gutters  ">
           <div className="col-7 ">

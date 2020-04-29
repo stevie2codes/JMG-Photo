@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 class HomeCube extends Component {
   componentDidMount() {
@@ -18,16 +18,16 @@ class HomeCube extends Component {
     // this.renderer.setClearColor("0x000000, 0");
     this.renderer.setSize(width, height);
     this.mount.appendChild(this.renderer.domElement);
-    this.controls = new OrbitControls(this.camera, this.renderer.domElement);
-    this.controls.enableDamping = true;
-    this.controls.dampingFactor = 0.25;
-    this.controls.enableZoom = false;
+    // this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+    // this.controls.enableDamping = true;
+    // this.controls.dampingFactor = 0.25;
+    // this.controls.enableZoom = false;
     //ADD CUBE
     //TorusKnotBufferGeometry
-    const geometry = new THREE.SphereGeometry(8, 32, 16);
+    const geometry = new THREE.SphereGeometry(10, 65, 60);
 
-    const light = new THREE.AmbientLight("white", 1.5);
-    light.position.set(0, 1, 2);
+    const light = new THREE.DirectionalLight("white", 2);
+    light.position.set(2, 1, 1);
     this.scene.add(light);
 
     const loader = new THREE.TextureLoader();
@@ -36,9 +36,11 @@ class HomeCube extends Component {
     );
     // const moonTexture = loader.load("../images/moon.jpg");
 
-    const material = new THREE.MeshStandardMaterial({
+    const material = new THREE.MeshPhongMaterial({
       roughness: 1,
-      metalness: 0,
+
+      // wireframe: true,
+
       map: texture
     });
 
@@ -77,11 +79,8 @@ class HomeCube extends Component {
       <React.Fragment>
         <div
           style={{
-            width: "15vw",
-            height: "15vh",
-            position: "fixed",
-            top: "10px",
-            left: 0
+            width: "40vw",
+            height: "40vh"
           }}
           ref={mount => {
             this.mount = mount;

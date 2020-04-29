@@ -1,9 +1,26 @@
 @import "./variables";
 
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.jgPhoto {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 90vmin;
+  height: auto;
+  opacity: 0.8;
+}
+
 .name {
-  position: fixed;
-  top: 220px;
-  left: 250px;
   font-size: 6vw;
-  transform: rotateZ(7deg);
+  color: $white;
+  text-align: center;
+  font-family: $cursive;
+  letter-spacing: 5px;
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
 }

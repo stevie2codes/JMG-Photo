@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "../sass/navbar.scss";
 import { Link } from "react-router-dom";
-import HomeCube from "./three";
 
 class NavBar extends Component {
   // state = {  }
@@ -11,7 +10,6 @@ class NavBar extends Component {
         <nav className="navbar navbar-expand-lg navbar-light ">
           <Link to="/" className="navbar-brand">
             ATLAS-PHOTO
-            <HomeCube />
           </Link>
           <button
             className="navbar-toggler"

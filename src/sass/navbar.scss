@@ -1,11 +1,12 @@
 @import "./variables";
 
 .navbar-brand {
-  font-family: $primaryFont;
+  font-family: $serif;
+  color: $softBlue !important;
 }
 .nav-link {
-  font-family: $secondaryFont;
-  color: $red !important;
+  font-family: $serif;
+  color: $white !important;
 }
 
 .dropdown-item {
@@ -13,8 +14,7 @@
   color: $red;
 }
 .navbar {
-  background-color: transparent;
-  height: 100px;
+  background: transparent;
 }
 .dropdown-menu {
   background-color: $softBlue !important;
