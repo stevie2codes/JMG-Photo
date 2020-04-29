@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import * as THREE from "three";
+
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 class HomeCube extends Component {
@@ -26,7 +27,7 @@ class HomeCube extends Component {
     //TorusKnotBufferGeometry
     const geometry = new THREE.SphereGeometry(10, 65, 60);
 
-    const light = new THREE.DirectionalLight("white", 2);
+    const light = new THREE.DirectionalLight("white", 1.5);
     light.position.set(2, 1, 1);
     this.scene.add(light);
 
@@ -38,10 +39,11 @@ class HomeCube extends Component {
 
     const material = new THREE.MeshPhongMaterial({
       roughness: 1,
-
-      // wireframe: true,
-
-      map: texture
+      shininess: "30",
+      map: texture,
+      bumpMap: texture,
+      // displacementMap: texture,
+      bumpScale: 0.5
     });
 
     this.cube = new THREE.Mesh(geometry, material);
@@ -79,8 +81,10 @@ class HomeCube extends Component {
       <React.Fragment>
         <div
           style={{
-            width: "40vw",
-            height: "40vh"
+            display: "flex",
+            flexWrap: "wrap",
+            width: "45vmin",
+            height: "45vmin"
           }}
           ref={mount => {
             this.mount = mount;

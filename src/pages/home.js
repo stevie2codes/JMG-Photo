@@ -6,17 +6,18 @@ import HomeCube from "../components/three";
 const Home = () => {
   return (
     <div>
-      <div className="conatainer d-flex justify-content-center ">
-        <div className="row name">
+      <div className="conatainer  ">
+        <div className=" name">
           <div className="mainLogo ">
-            <span>Atlas</span> <span>Photo</span>
+            {/* <span>Atlas</span> <span>Photo</span> */}
             <HomeCube />
+            <div className="btn discover">Discover</div>
           </div>
         </div>
 
         <img
           className="jgPhoto"
-          src="https://res.cloudinary.com/df9q0hnuw/image/upload/v1588176708/jg_wkh7ap.jpg"
+          src="https://res.cloudinary.com/df9q0hnuw/image/upload/v1588191505/jg_jtitxi.png"
           alt=""
         />
       </div>

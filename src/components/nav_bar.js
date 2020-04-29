@@ -9,7 +9,7 @@ class NavBar extends Component {
       <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-light ">
           <Link to="/" className="navbar-brand">
-            ATLAS-PHOTO
+            atlas-photo
           </Link>
           <button
             className="navbar-toggler"
@@ -30,11 +30,7 @@ class NavBar extends Component {
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
+
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
