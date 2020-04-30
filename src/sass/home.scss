@@ -13,7 +13,7 @@
   position: absolute;
   bottom: 0px;
   right: 0;
-  height: 100vmin;
+  height: 100vh;
   opacity: 0.8;
   z-index: 1;
 }
@@ -36,9 +36,11 @@
   color: white !important;
   border: 1px solid white !important;
   font-size: 3.5vmin !important;
+  text-align: center;
 
   &:hover {
     background-color: #074973;
+    color: $white !important;
     transform: scale(1.05);
     transition: 500ms;
   }

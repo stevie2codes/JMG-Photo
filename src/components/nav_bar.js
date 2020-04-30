@@ -7,7 +7,7 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav className="navbar navbar-expand-lg navbar-dark ">
           <Link to="/" className="navbar-brand">
             atlas-photo
           </Link>
@@ -50,7 +50,7 @@ class NavBar extends Component {
                   <Link className="dropdown-item" to="/weddings">
                     Weddings
                   </Link>
-                  <div className="dropdown-divider"></div>
+
                   <Link className="dropdown-item" to="/furryFriends">
                     Furry Freinds
                   </Link>

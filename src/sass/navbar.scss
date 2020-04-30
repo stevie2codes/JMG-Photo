@@ -13,20 +13,25 @@
 }
 
 .dropdown-item {
-  font-family: $secondaryFont;
-  color: $red;
+  font-family: $serif;
 }
 .navbar {
   background: transparent;
   z-index: 40;
 }
 .dropdown-menu {
-  background-color: $softBlue !important;
+  background-color: transparent !important;
+  color: $white !important;
 }
 .navbar-toggler {
-  border-color: transparent !important;
+  color: #074973 !important;
+  border: none !important;
+  &:focus {
+    outline: none !important;
+  }
 }
 
-// svg .navbar-toggler-icon {
-//   stroke: indianred !important;
-// }
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}

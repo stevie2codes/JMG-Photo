@@ -4,6 +4,12 @@
 .img {
   width: 100%;
   height: 100%;
-  margin-left: 1px;
-  margin-top: 1px;
+}
+
+.container {
+  position: relative;
+}
+.portLands {
+  position: absolute;
+  top: 0;
 }
