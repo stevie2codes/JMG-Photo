@@ -8,8 +8,8 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg navbar-dark ">
-          <Link to="/" className="navbar-brand">
+        <nav className="navbar navbar-expand-lg navbar-light d-block ">
+          <Link to="/" className="navbar-brand m-auto">
             atlas-photo
             {/* <HomeCube /> */}
           </Link>

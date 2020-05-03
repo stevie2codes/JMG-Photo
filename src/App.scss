@@ -6,3 +6,12 @@
   height: 100vh;
   z-index: -3;
 }
+
+.carousel-inner {
+  width: 80vw !important;
+  margin: auto;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
