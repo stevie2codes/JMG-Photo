@@ -15,12 +15,12 @@ class Landscape extends Component {
   render() {
     return (
       <div className="container ">
-        <div className="row">
+        <div className="row row-cols-2">
           {this.state.landscapes.map(img =>
             img.type === "landscape" ? (
-              <div className=" mb-3 landscapes" key={img.id}>
+              <div className=" landscapes p-1" key={img.id}>
                 <img
-                  className="col-4 align-self-start"
+                  className="col-sm"
                   src={img.image}
                   alt="landscape orentation"
                 />
@@ -28,12 +28,12 @@ class Landscape extends Component {
             ) : null
           )}
         </div>
-        <div className="row portLands">
+        <div className="row row-cols-2 portLands">
           {this.state.landscapes.map(img =>
             img.type === "portrait" ? (
-              <div className="mb-3 " key={img.id}>
+              <div className=" p-1" key={img.id}>
                 <img
-                  className="col-6 offset-8"
+                  className="col-12   output"
                   src={img.image}
                   alt="portrait orentation"
                 />

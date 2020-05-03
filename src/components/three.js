@@ -27,7 +27,7 @@ class HomeCube extends Component {
     //TorusKnotBufferGeometry
     const geometry = new THREE.SphereGeometry(10, 65, 60);
 
-    const light = new THREE.DirectionalLight("white", 1.5);
+    const light = new THREE.DirectionalLight("white", 2);
     light.position.set(2, 1, 1);
     this.scene.add(light);
 
@@ -83,8 +83,8 @@ class HomeCube extends Component {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            width: "45vmin",
-            height: "45vmin"
+            width: "10vmin",
+            height: "10vmin"
           }}
           ref={mount => {
             this.mount = mount;

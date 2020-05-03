@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../sass/navbar.scss";
 import { Link } from "react-router-dom";
+// import HomeCube from "../components/three";
 
 class NavBar extends Component {
   // state = {  }
@@ -10,7 +11,9 @@ class NavBar extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark ">
           <Link to="/" className="navbar-brand">
             atlas-photo
+            {/* <HomeCube /> */}
           </Link>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -24,7 +27,7 @@ class NavBar extends Component {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav m-auto">
               <li className="nav-item active">
                 <Link className="nav-link" to="/">
                   Home <span className="sr-only">(current)</span>
