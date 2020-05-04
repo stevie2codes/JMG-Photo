@@ -8,10 +8,14 @@
 }
 
 .carousel-inner {
-  width: 80vw !important;
+  width: 40vmax !important;
   margin: auto;
 }
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
+}
+
+.carousel-item {
+  height: 50vmax !important;
 }
