@@ -8,8 +8,8 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg navbar-light d-block ">
-          <Link to="/" className="navbar-brand m-auto">
+        <nav className="navbar  navbar-light mx-auto">
+          <Link to="/" className="navbar-brand mx-auto">
             atlas-photo
             {/* <HomeCube /> */}
           </Link>
@@ -27,14 +27,14 @@ class NavBar extends Component {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav m-auto">
+            <ul className="navbar-nav mx-auto">
               <li className="nav-item active">
                 <Link className="nav-link" to="/">
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
 
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown ">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="/portfolio"

@@ -7,10 +7,18 @@ img {
   cursor: none !important;
 }
 
-// .portLands {
-//   position: relative;
-// }
-// .output {
-//   position: absolute;
-//   top: 0;
-// }
+.sectionName {
+  font-family: $secondaryFont;
+  color: $black;
+  text-align: center;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.sectionDiv {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $black;
+  margin: auto;
+  margin-bottom: 100px;
+}

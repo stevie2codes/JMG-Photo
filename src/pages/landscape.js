@@ -15,6 +15,9 @@ class Landscape extends Component {
   render() {
     return (
       <div className="container ">
+        <div className="sectionDiv">
+          <h1 className="sectionName text-center m-5">LANDSCAPES</h1>
+        </div>
         <div className="row row-cols-2">
           {this.state.landscapes.map(img =>
             img.type === "landscape" ? (
