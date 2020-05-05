@@ -10,6 +10,11 @@ const landscapes = [
     type: "landscape"
   },
   {
+    id: 6,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587572484/jg-photo/DSC_2200-Edit-2-Edit_1_vsy0br.jpg`,
+    type: "portrait"
+  },
+  {
     id: 3,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588137287/jg-photo/DSC_3309-Edit_aijgpi.jpg`,
     type: "landscape"
@@ -24,11 +29,7 @@ const landscapes = [
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587573385/jg-photo/DSC_2178-Edit_1_eduixl.jpg`,
     type: "portrait"
   },
-  {
-    id: 6,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587572484/jg-photo/DSC_2200-Edit-2-Edit_1_vsy0br.jpg`,
-    type: "portrait"
-  },
+
   {
     id: 7,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562746/jg-photo/DSC_3577-Edit_yo1osi.jpg`,
@@ -38,6 +39,11 @@ const landscapes = [
     id: 8,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562746/jg-photo/DSC_3882-Edit_lyrgjd.jpg`,
     type: "landscape"
+  },
+  {
+    id: 13,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562731/jg-photo/DSC_2715-Edit_thfi9s.jpg`,
+    type: "portrait"
   },
   {
     id: 9,
@@ -50,20 +56,26 @@ const landscapes = [
     type: "landscape"
   },
   {
+    id: 18,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562730/jg-photo/DSC_2007_pfmsah.jpg`,
+    type: "portrait"
+  },
+  {
     id: 11,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562731/jg-photo/DSC_2805_sxsdlh.jpg`,
     type: "landscape"
+  },
+  {
+    id: 19,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562730/jg-photo/DSC_2391_g3yvfq.jpg`,
+    type: "portrait"
   },
   {
     id: 12,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562731/jg-photo/DSC_2747-Edit_fszolt.jpg`,
     type: "landscape"
   },
-  {
-    id: 13,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562731/jg-photo/DSC_2715-Edit_thfi9s.jpg`,
-    type: "portrait"
-  },
+
   {
     id: 14,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562731/jg-photo/DSC_2787-Edit_qafjgx.jpg`,
@@ -84,16 +96,7 @@ const landscapes = [
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562730/jg-photo/DSC_2387_pnznvf.jpg`,
     type: "landscape"
   },
-  {
-    id: 18,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562730/jg-photo/DSC_2007_pfmsah.jpg`,
-    type: "portrait"
-  },
-  {
-    id: 19,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562730/jg-photo/DSC_2391_g3yvfq.jpg`,
-    type: "portrait"
-  },
+
   {
     id: 20,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562728/jg-photo/DSC_1690_kfuxtc.jpg`,

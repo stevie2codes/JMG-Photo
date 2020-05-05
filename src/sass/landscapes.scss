@@ -1,24 +1,39 @@
 @import "./variables";
 
-img {
-  width: 100%;
-  height: 100%;
-  padding: 0% !important;
-  cursor: none !important;
-}
+// img {
+//   width: 100%;
+//   height: 100%;
+//   padding: 0% !important;
+//   cursor: none !important;
+// }
 
 .sectionName {
   font-family: $secondaryFont;
   color: $black;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   justify-content: center;
+  border-bottom: 1px solid $black;
+  letter-spacing: 10px;
+  line-height: 5;
 }
 
 .sectionDiv {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid $black;
+
   margin: auto;
   margin-bottom: 100px;
 }
+
+// .grid {
+//   max-width: 100vw;
+// }
+// .grid-item {
+//   width: 400px;
+//   padding: 10px;
+// }
+
+// #masonry-layout {
+
+// }
