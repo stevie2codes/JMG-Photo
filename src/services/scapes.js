@@ -5,20 +5,21 @@ const landscapes = [
     type: "landscape"
   },
   {
-    id: 2,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587574800/green-road.jpg`,
-    type: "landscape"
-  },
-  {
     id: 6,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587572484/jg-photo/DSC_2200-Edit-2-Edit_1_vsy0br.jpg`,
     type: "portrait"
   },
   {
-    id: 3,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588137287/jg-photo/DSC_3309-Edit_aijgpi.jpg`,
+    id: 2,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587574800/green-road.jpg`,
     type: "landscape"
   },
+
+  // {
+  //   id: 3,
+  //   image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588137287/jg-photo/DSC_3309-Edit_aijgpi.jpg`,
+  //   type: "landscape"
+  // },
   {
     id: 4,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587569997/jg-photo/heroLights.jpg`,
@@ -141,6 +142,11 @@ const landscapes = [
     id: 28,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562704/jg-photo/DSC_1497_chdpq5.jpg`,
     type: "landscape"
+  },
+  {
+    id: 43,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562730/jg-photo/DSC_2073-Edit_axyegs.jpg`,
+    type: "portrait"
   },
   {
     id: 29,

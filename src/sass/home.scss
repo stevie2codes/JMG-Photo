@@ -7,3 +7,21 @@
   width: 80vw;
   margin: auto;
 }
+
+.sectionName {
+  font-family: $primaryFont;
+  color: $black;
+  text-align: center;
+  font-size: 2rem;
+  justify-content: center;
+  border-bottom: 1px solid $black;
+  letter-spacing: 10px;
+  line-height: 5;
+}
+
+.sectionDiv {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 100px;
+}

@@ -1,18 +1,21 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import NavBar from "./components/nav_bar";
 import "./App.scss";
 import Home from "./pages/home";
 import { BrowserRouter, Route } from "react-router-dom";
-import Landscape from "./pages/landscape";
+
+const Landscape = lazy(() => import("./pages/landscape"));
 function App() {
   return (
     <React.Fragment>
       <div className="App">
-        <BrowserRouter>
-          <NavBar />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/landscapes" component={Landscape} />
-        </BrowserRouter>
+        <Suspense fallback={<h1>Loading Route...</h1>}>
+          <BrowserRouter>
+            <NavBar />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/landscapes" component={Landscape} />
+          </BrowserRouter>
+        </Suspense>
       </div>
     </React.Fragment>
   );

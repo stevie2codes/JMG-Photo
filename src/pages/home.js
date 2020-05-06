@@ -7,6 +7,9 @@ import Carousel from "../components/carousel";
 const Home = () => {
   return (
     <div>
+      <div className="sectionDiv">
+        <h1 className="sectionName text-center m-5">Home</h1>
+      </div>
       <Carousel />
     </div>
   );
