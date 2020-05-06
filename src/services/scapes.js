@@ -15,11 +15,11 @@ const landscapes = [
     type: "landscape"
   },
 
-  // {
-  //   id: 3,
-  //   image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588137287/jg-photo/DSC_3309-Edit_aijgpi.jpg`,
-  //   type: "landscape"
-  // },
+  {
+    id: 3,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1588790500/jg-photo/DSC_3309-Edit_owot3x.jpg`,
+    type: "landscape"
+  },
   {
     id: 4,
     image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1587569997/jg-photo/heroLights.jpg`,

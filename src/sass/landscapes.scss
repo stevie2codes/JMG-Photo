@@ -3,18 +3,12 @@
 // img {
 //   min-height: auto;
 // }
+.card-columns {
+  column-count: 3;
+  column-gap: 10px;
+  grid-column-gap: 10px;
+}
 
-// .landscapeContainer {
-//   display: none;
-// }
-// .grid {
-//   max-width: 100vw;
-// }
-// .grid-item {
-//   width: 400px;
-//   padding: 10px;
-// }
-
-// #masonry-layout {
-//   width: 80vw;
-// }
+.card-columns .card {
+  margin-bottom: 5px !important;
+}
