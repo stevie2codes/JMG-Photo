@@ -9,8 +9,8 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg d-flex navbar-light mr-5">
-          <Link to="/" className="navbar-brand ml-5">
+        <nav className="navbar navbar-expand-lg d-flex  mr-5">
+          <Link to="/" className="navbar-brand  ml-5">
             <img src={logo} className="brand mx-auto" alt="signiture" />
             {/* <HomeCube /> */}
           </Link>

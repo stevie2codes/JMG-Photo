@@ -17,7 +17,7 @@ const Pagination = props => {
           <li
             key={page}
             className={
-              page === currentPage ? "page-item active" : "page-item ml-2"
+              page === currentPage ? "page-item active" : "page-item mx-2"
             }
           >
             <button className="btn" onClick={() => onPageChange(page)}>

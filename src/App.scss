@@ -1,14 +1,17 @@
 @import "./sass/variables";
 
 .App {
-  background-color: $white;
+  // background-color: $white;
   width: 100vw;
   height: 100vh;
   z-index: -3;
 }
-
+.carousel {
+  width: 90vh;
+  height: 70vh;
+}
 .carousel-inner {
-  width: 40vmax !important;
+  width: 90vmax !important;
   margin: auto;
 }
 .carousel-control-next-icon,
@@ -17,5 +20,7 @@
 }
 
 .carousel-item {
-  height: 50vmax !important;
+  width: 100%;
+  height: 100% !important;
+  background-size: cover !important ;
 }

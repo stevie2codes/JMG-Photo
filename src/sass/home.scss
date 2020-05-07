@@ -1,20 +1,11 @@
 @import "./variables";
 
-.jumbotron {
-  background-image: url(https://res.cloudinary.com/df9q0hnuw/image/upload/v1588174751/DSC_3731-Edit_ifqqg0.jpg);
-  background-size: cover;
-  height: 90vh;
-  width: 80vw;
-  margin: auto;
-}
-
 .sectionName {
   font-family: $primaryFont;
-  color: $black;
   text-align: center;
   font-size: 2rem;
   justify-content: center;
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid steelblue;
   letter-spacing: 10px;
   line-height: 5;
 }
