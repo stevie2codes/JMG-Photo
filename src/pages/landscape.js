@@ -1,30 +1,38 @@
 import React from "react";
 import "../sass/landscapes.scss";
-
+import ReactImageAppear from "react-image-appear";
 import { getLandscapes } from "../services/scapes";
+import Pagination from "../common/pagination";
+import { paginate } from "../utils/paginate";
 
 class Landscape extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      landscapes: [],
-      loading: true
-    };
-  }
+  state = {
+    landscapes: getLandscapes(),
+    loading: true,
+    currentPage: 1,
+    pageSize: 12
+  };
+
   componentDidMount() {
     this.setState({
-      landscapes: getLandscapes(),
       loading: false
     });
   }
   addDefaultSrc = ev => {
     ev.target.src = "https://www.stevensegallery.com/640/360";
   };
+
+  handlePageChange = page => {
+    this.setState({ currentPage: page });
+  };
+
   render() {
-    if (this.state.loading) {
+    const { pageSize, currentPage, loading, landscapes } = this.state;
+
+    if (loading) {
       return <h1>loading … </h1>;
     }
-
+    let images = paginate(landscapes, currentPage, pageSize);
     return (
       <React.Fragment>
         {" "}
@@ -32,17 +40,27 @@ class Landscape extends React.Component {
           <h1 className="sectionName text-center m-5">LANDSCAPES</h1>
         </div>
         <div className="card-columns">
-          {this.state.landscapes.map(img => (
+          {images.map(img => (
             <div className="card" key={img.id}>
-              <img
-                class="card-img-top"
+              <ReactImageAppear
+                showLoader={false}
+                easing="ease-in"
                 src={img.image}
+                animation="zoomIn"
+                animationDuration="500ms"
+                className="card-img-top"
                 onError={this.addDefaultSrc}
                 alt="Landscapes"
-              ></img>
+              />
             </div>
           ))}
         </div>
+        <Pagination
+          itemsCount={landscapes.length}
+          pageSize={pageSize}
+          onPageChange={this.handlePageChange}
+          currentPage={currentPage}
+        />
       </React.Fragment>
     );
   }

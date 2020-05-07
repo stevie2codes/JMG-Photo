@@ -1,10 +1,7 @@
 @import "./variables";
 
-.navbar-brand {
-  font-family: $cursive;
-  color: #074973 !important;
-  font-size: 4rem !important;
-  letter-spacing: 5px;
+.brand {
+  width: 10vmax !important;
 }
 .nav-link {
   font-family: $primaryFont;
@@ -15,20 +12,23 @@
 
 .dropdown-item {
   font-family: $secondaryFont;
-  color: #074973 !important;
+  color: $white !important;
+  &:hover {
+    color: $black !important;
+  }
 }
 .navbar {
   margin: auto;
   background: transparent;
   z-index: 40;
-  height: 200px;
+  height: 100px;
 }
 .dropdown-menu {
-  background-color: transparent !important;
+  background-color: $black !important;
   color: $white !important;
 }
 .navbar-toggler {
-  color: #074973 !important;
+  color: $white !important;
   border: none !important;
   &:focus {
     outline: none !important;

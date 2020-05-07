@@ -4,11 +4,26 @@
 //   min-height: auto;
 // }
 .card-columns {
-  column-count: 3;
+  column-count: 4;
   column-gap: 10px;
   grid-column-gap: 10px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-columns {
+    column-count: 1;
+  }
 }
 
 .card-columns .card {
-  margin-bottom: 5px !important;
+  margin-bottom: 10px !important;
 }
+
+// .card:hover {
+//   transform: scale(1.5);
+//   transition: 500ms;
+//   transition-delay: 500ms;
+//   z-index: 1000;
+// }

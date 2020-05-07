@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../sass/navbar.scss";
 import { Link } from "react-router-dom";
+import logo from "../images/myphotosign_40378_b.png";
 // import HomeCube from "../components/three";
 
 class NavBar extends Component {
@@ -8,9 +9,9 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand d-block navbar-light mx-auto">
-          <Link to="/" className="navbar-brand mx-auto">
-            atlas-photo
+        <nav className="navbar navbar-expand-lg d-flex navbar-light mr-5">
+          <Link to="/" className="navbar-brand ml-5">
+            <img src={logo} className="brand mx-auto" alt="signiture" />
             {/* <HomeCube /> */}
           </Link>
 
@@ -27,8 +28,8 @@ class NavBar extends Component {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto">
-              <li className="nav-item active">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item ">
                 <Link className="nav-link" to="/">
                   Home <span className="sr-only">(current)</span>
                 </Link>
@@ -46,7 +47,10 @@ class NavBar extends Component {
                 >
                   Portfolio
                 </Link>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div
+                  className="dropdown-menu ml-5"
+                  aria-labelledby="navbarDropdown"
+                >
                   <Link to="/landscapes" className="dropdown-item">
                     Landscapes
                   </Link>
