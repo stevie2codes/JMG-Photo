@@ -39,7 +39,7 @@ class Landscape extends React.Component {
         <div className="sectionDiv">
           <h1 className="sectionName text-center m-5">LANDSCAPES</h1>
         </div>
-        <div className="card-columns">
+        <div className="card-columns landscapes">
           {images.map(img => (
             <div className="card" key={img.id}>
               <ReactImageAppear

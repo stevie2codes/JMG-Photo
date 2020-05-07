@@ -27,7 +27,7 @@ const Home = () => {
           <div className="card portraitCard hvrbox">
             <img
               className="card-img-top hvrbox-layer_bottom"
-              src="https://res.cloudinary.com/df9q0hnuw/image/upload/v1588562700/jg-photo/DSC_0375_rr5fng.jpg"
+              src="https://res.cloudinary.com/df9q0hnuw/image/upload/v1588888151/jg-photo/pups/56281569_2114806922143661_1968872717121748992_o_yxykuy.jpg"
               alt="portraits"
             />{" "}
             <div className="hvrbox-layer_top hvrbox-layer_slideup">

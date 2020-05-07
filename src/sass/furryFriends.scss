@@ -1,9 +1,4 @@
-@import "./variables";
-
-// img {
-//   min-height: auto;
-// }
-.card-columns.landscapes {
+.card-columns.pups {
   column-count: 2;
   column-gap: 10px;
   grid-column-gap: 15px;
@@ -24,10 +19,3 @@
 div.card {
   border: transparent !important;
 }
-
-// .card:hover {
-//   transform: scale(1.5);
-//   transition: 500ms;
-//   transition-delay: 500ms;
-//   z-index: 1000;
-// }
