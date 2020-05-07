@@ -3,29 +3,30 @@
 .brand {
   width: 10vmax !important;
 }
+
 .nav-link {
   font-family: $primaryFont;
-  // color: $black !important;
   font-size: 1.2rem;
   letter-spacing: 3px;
+  &:hover {
+    color: steelblue !important;
+  }
 }
 
-// .dropdown-item {
-//   font-family: $secondaryFont;
-//   // color: $white !important;
-//   &:hover {
-//     // color: $black !important;
-//   }
-// }
+.dropdown-item {
+  font-family: $secondaryFont;
+  color: $white !important;
+  &:hover {
+    color: $black !important;
+  }
+}
 .navbar {
   margin: auto;
   background: transparent;
   z-index: 40;
   height: 100px;
 }
-a {
-  color: steelblue !important;
-}
+
 .dropdown-menu {
   background-color: $black !important;
   color: $white !important;

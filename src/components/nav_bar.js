@@ -9,8 +9,8 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg d-flex  mr-5">
-          <Link to="/" className="navbar-brand  ml-5">
+        <nav className="navbar navbar-expand-md navbar-light">
+          <Link to="/" className="navbar-brand ">
             <img src={logo} className="brand mx-auto" alt="signiture" />
             {/* <HomeCube /> */}
           </Link>
@@ -60,6 +60,9 @@ class NavBar extends Component {
 
                   <Link className="dropdown-item" to="/furryFriends">
                     Furry Freinds
+                  </Link>
+                  <Link className="dropdown-item" to="/portraits">
+                    Portraits
                   </Link>
                 </div>
               </li>

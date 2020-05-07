@@ -5,9 +5,9 @@
   text-align: center;
   font-size: 2rem;
   justify-content: center;
-  border-bottom: 1px solid steelblue;
+  border-bottom: 1px solid $black;
   letter-spacing: 10px;
-  line-height: 5;
+  line-height: 3;
 }
 
 .sectionDiv {
@@ -15,4 +15,15 @@
   justify-content: center;
   margin: auto;
   margin-bottom: 50px;
+}
+.card-columns.home {
+  column-count: 2;
+  column-gap: 50px;
+  grid-column-gap: 55px;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.card-columns.home .card {
+  margin-bottom: 50px !important;
 }
