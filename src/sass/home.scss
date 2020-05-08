@@ -19,14 +19,14 @@
 
 .card-columns.home {
   column-count: 2;
-  column-gap: 30px;
-  grid-column-gap: 30px;
+  column-gap: 10px;
+  grid-column-gap: 10px;
   width: 70vw;
   margin: 0 auto;
 }
 
 .card-columns.home .card {
-  margin-bottom: 30px !important;
+  margin-bottom: 5px !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,4 +89,13 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .hvrbox .hvrbox-layer_top,
+  .hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+  }
 }
