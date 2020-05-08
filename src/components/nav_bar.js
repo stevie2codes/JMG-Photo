@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import "../sass/navbar.scss";
 import { Link } from "react-router-dom";
-import logo from "../images/myphotosign_40378_b.png";
-// import HomeCube from "../components/three";
+import NavIcon from "../components/navIcon";
 
 class NavBar extends Component {
   // state = {  }
   render() {
+    // const logo = document.querySelectorAll("#logo path");
+    // for (let i = 0; i < logo.length; i++) {
+    //   console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+    // }
     return (
       <React.Fragment>
         <nav className="navbar navbar-expand-md navbar-light">
           <Link to="/" className="navbar-brand ">
-            <img src={logo} className="brand mx-auto" alt="signiture" />
-            {/* <HomeCube /> */}
+            <NavIcon />
           </Link>
 
           <button
