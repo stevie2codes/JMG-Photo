@@ -46,8 +46,6 @@ class Landscape extends React.Component {
                 showLoader={false}
                 easing="ease-in"
                 src={img.image}
-                animation="zoomIn"
-                animationDuration="500ms"
                 className="card-img-top"
                 onError={this.addDefaultSrc}
                 alt="Landscapes"

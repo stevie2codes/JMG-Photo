@@ -46,8 +46,6 @@ class Weddings extends React.Component {
                 showLoader={false}
                 easing="ease-in"
                 src={img.image}
-                animation="zoomIn"
-                animationDuration="500ms"
                 className="card-img-top"
                 onError={this.addDefaultSrc}
                 alt="weddings"

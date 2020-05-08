@@ -6,7 +6,7 @@ function NavIcon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="15vmax"
-      height="131"
+      height="auto"
       fill="#212121"
       viewBox="0 0 672 131"
     >
