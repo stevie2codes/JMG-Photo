@@ -67,18 +67,18 @@
   -moz-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out 0s;
   -ms-transition: all 0.4s ease-in-out 0s;
-  transform: translateY(100%);
+  transform: scale(0);
   transition: all 0.4s ease-in-out 0s;
 }
 .hvrbox:hover .hvrbox-layer_top,
 .hvrbox.active .hvrbox-layer_top {
   opacity: 1;
-  transform: translateY(0);
+  transform: scale(1);
   cursor: pointer;
 }
 .hvrbox .hvrbox-text {
   font-family: $primaryFont;
-  border-bottom: 1px solid $white;
+  border-bottom: 0.5px solid $white;
   text-align: center;
   font-size: 2rem;
   display: inline-block;

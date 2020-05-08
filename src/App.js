@@ -2,13 +2,13 @@ import React, { lazy, Suspense } from "react";
 import NavBar from "./components/nav_bar";
 import "./App.scss";
 import Home from "./pages/home";
-import FurryFreinds from "./pages/furryFriends";
 import Portraits from "./pages/portraits";
-import Weddings from "./pages/weddings";
 import Contact from "./pages/contact";
 
 import { BrowserRouter, Route } from "react-router-dom";
 const Landscape = lazy(() => import("./pages/landscape"));
+const Weddings = lazy(() => import("./pages/weddings"));
+const FurryFreinds = lazy(() => import("./pages/furryFriends"));
 function App() {
   return (
     <React.Fragment>
