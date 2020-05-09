@@ -47,7 +47,7 @@ class NavBar extends Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Portfolio
+                  portfolio
                 </Link>
                 <div
                   className="dropdown-menu ml-5"
@@ -70,7 +70,7 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">
-                  Contact
+                  contact
                 </Link>
               </li>
             </ul>

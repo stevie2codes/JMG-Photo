@@ -5,7 +5,7 @@
 }
 
 .nav-link {
-  font-family: $primaryFont;
+  font-family: $thirdFont;
   color: $black !important;
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -15,7 +15,7 @@
 }
 
 .dropdown-item {
-  font-family: $secondaryFont;
+  font-family: $primaryFont;
   color: $white !important;
   &:hover {
     color: $black !important;
@@ -23,9 +23,8 @@
 }
 .navbar {
   margin: auto;
-  background: transparent;
+  background: transparent !important;
   z-index: 40;
-  height: 100px;
 }
 
 .dropdown-menu {

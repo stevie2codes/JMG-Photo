@@ -1,5 +1,5 @@
 import React from "react";
-import "../sass/landscapes.scss";
+import "../sass/weddings.scss";
 import ReactImageAppear from "react-image-appear";
 import { getWeddings } from "../services/wedPics";
 import Pagination from "../common/pagination";

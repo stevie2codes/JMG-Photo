@@ -37,7 +37,7 @@ class Landscape extends React.Component {
       <React.Fragment>
         {" "}
         <div className="sectionDiv">
-          <h1 className="sectionName text-center m-5">Furry Freinds</h1>
+          <h1 className="sectionName text-center m-5">furry friends</h1>
         </div>
         <div className="card-columns pups">
           {images.map(img => (
