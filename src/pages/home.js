@@ -11,7 +11,7 @@ const Home = () => {
         <div className="sectionDiv">
           <div className="blendContainer">
             <img src={mixImage} alt="Guy with camera" />
-            <video autoPlay muted loop src={mixVideo}></video>
+            <video playsInline autoPlay muted loop src={mixVideo}></video>
           </div>
         </div>
         <div className="card-columns home">
