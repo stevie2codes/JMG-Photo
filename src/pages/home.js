@@ -1,7 +1,7 @@
 import React from "react";
 import "../sass/home.scss";
 import mixImage from "../images/ladyGraph_2.1.1.jpg";
-import mixVideo from "../images/colorful_NiJmy2yL_Tlju.mp4";
+import mixVideo from "../images/colorful-compressed.mp4";
 import { Link } from "react-router-dom";
 
 const Home = () => {
