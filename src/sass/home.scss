@@ -113,7 +113,7 @@
   position: fixed;
   left: 0;
   z-index: -1;
-  animation: move 2s ease-in forwards, lean 4s ease alternate infinite;
+  animation: move 2s ease-in forwards;
   & img {
     position: absolute;
     left: 0;
@@ -162,13 +162,5 @@
   }
   to {
     opacity: 1;
-  }
-}
-@keyframes lean {
-  from {
-    transform: rotateZ(3deg);
-  }
-  to {
-    transform: rotateZ(-3deg);
   }
 }
