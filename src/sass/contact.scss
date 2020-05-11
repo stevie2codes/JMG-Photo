@@ -1,0 +1,18 @@
+@import "../sass//variables";
+.contactCard {
+  width: 50vw;
+  height: auto;
+  background-color: $white;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px rgb(230, 226, 226), -3px -3px 10px white;
+}
+
+i {
+  font-size: 4vmin;
+  margin: 10px;
+  & p {
+    font-family: $thirdFont;
+  }
+}

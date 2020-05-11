@@ -1,7 +1,10 @@
 @import "./sass/variables";
 
-// .App {
-//   width: 100vw;
-//   height: 100vh;
-//   z-index: -3;
-// }
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: $white;
+  background-size: cover;
+  box-sizing: border-box;
+  background-repeat: repeat-y;
+}
