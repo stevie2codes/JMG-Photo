@@ -1,7 +1,8 @@
 import React from "react";
 import "../sass/home.scss";
-import mixImage from "../images/ladyGraph_2.1.1.jpg";
-import mixVideo from "../images/colorful-compressed.mp4";
+// import mixImage from "../images/ladyGraph_2.1.1.jpg";
+// import mixVideo from "../images/colorful-compressed.mp4";
+import Earth from "../components/earth";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -9,10 +10,11 @@ const Home = () => {
     <div>
       <div className="mainContainer">
         <div className="sectionDiv">
-          <div className="blendContainer">
+          {/* <div className="blendContainer">
             <img src={mixImage} alt="Guy with camera" />
             <video playsInline autoPlay muted loop src={mixVideo}></video>
-          </div>
+          </div> */}
+          <Earth />
         </div>
         <div className="card-columns home">
           <Link to="/portraits">

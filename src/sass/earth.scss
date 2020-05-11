@@ -1,0 +1,23 @@
+#earth:focus {
+  border: none;
+  outline: none !important;
+}
+
+.earthHero {
+  animation: reveal 2s ease-in forwards;
+
+  & :focus {
+    outline: none;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: scale3d(3, 3, 3);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
