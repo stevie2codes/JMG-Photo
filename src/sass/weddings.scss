@@ -1,7 +1,7 @@
 .card-columns.weddings {
-  column-count: 3;
+  column-count: 2;
   column-gap: 10px;
-  grid-column-gap: 15px;
+  grid-column-gap: 10px;
   width: 90vw;
   margin: 0 auto;
 }
@@ -13,7 +13,7 @@
 }
 
 .card-columns .card {
-  margin-bottom: 15px !important;
+  margin-bottom: 10px !important;
 }
 
 div.card {
