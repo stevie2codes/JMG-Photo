@@ -103,80 +103,16 @@
   }
 }
 
-.mainContainer {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
-
-.blendContainer {
-  min-height: 100vh;
-  min-width: 100vw;
-  position: fixed;
-  left: 0;
-  z-index: -1;
-  animation: move 2s ease-in forwards;
-  & img {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    mix-blend-mode: screen;
-    z-index: 3;
-  }
-  & video {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    opacity: 1;
-    object-fit: cover;
-    opacity: 0.9;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .blendContainer {
-    min-width: 100vw;
-    min-height: 80vh;
-    bottom: 0;
-  }
-}
-
-@media only screen and (min-width: 2000px) {
-  .blendContainer {
-    min-width: 100vmin;
-    min-height: 100vmin;
-
-    transform: translate(50%, 50%);
-
-    bottom: 50%;
-  }
-}
-
-@keyframes move {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 #logo {
   margin-top: 10%;
-  animation: fill ease-in 0.5s forwards 3s;
+  animation: fill ease-in 0.5s forwards 2s;
   stroke: transparent;
 }
 
 #logo path:nth-child(1) {
   stroke-dasharray: 1791px;
   stroke-dashoffset: 1791px;
-  animation: draw 10s ease forwards;
+  animation: draw 8s ease forwards;
 }
 
 @keyframes draw {

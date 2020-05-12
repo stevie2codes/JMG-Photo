@@ -23,3 +23,5 @@
   - nodeSASS
   - Bootstrap
   - SVG Animation
+  - Cloudinary
+  - Image CDN

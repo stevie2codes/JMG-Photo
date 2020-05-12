@@ -4,6 +4,12 @@
   width: 100vw;
   min-height: 100vh;
   background: $white;
-  background-size: cover;
+
   box-sizing: border-box;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: $primaryFont;
 }
