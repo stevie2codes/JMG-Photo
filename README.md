@@ -6,7 +6,7 @@
 
 ![preview](./src/images/landing.png) ![preview](./src/images/landing2.png)
 ![preview](./src/images/portPreview.png) ![preview](./src/images/pupPreview.png)
-![preview](./src/images/weddingPreview.png)
+![preview](./src/images/weddingPreview.png) ![preview](./src/images/landscapePreview.png)
 
 # Technologies Used
 
