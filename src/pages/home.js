@@ -10,10 +10,6 @@ const Home = () => {
     <div>
       <div className="mainContainer">
         <div className="sectionDiv">
-          {/* <div className="blendContainer">
-            <img src={mixImage} alt="Guy with camera" />
-            <video playsInline autoPlay muted loop src={mixVideo}></video>
-          </div> */}
           <Earth />
         </div>
         <div className="card-columns home">
