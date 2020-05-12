@@ -1,7 +1,8 @@
 # Atlas-Photo
 
-[Go To Website](www.atlas-photo.com)
-A live freelance portfolio porject built with react and deployed with AWS.
+## A live freelance portfolio porject built with react and deployed with AWS.
+
+- [Go To Website](https://atlas-photo.com/)
 
 ![preview](./src/images/landing.png) ![preview](./src/images/landing2.png)
 ![preview](./src/images/portPreview.png) ![preview](./src/images/pupPreview.png)
@@ -15,7 +16,7 @@ A live freelance portfolio porject built with react and deployed with AWS.
   - react-image-appear
   - lodash
 - AWS
-  -Cloudfront
+  - Cloudfront
   - S3
   - Route53
 - SASS
