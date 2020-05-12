@@ -8,17 +8,19 @@ const Contact = () => {
         <h1 className="sectionName text-center m-5">Contact</h1>
       </div>
       <div className="contactCard">
-        <i className="fas fa-at">
+        <a href="mailto:atlasphoto1@gmail.com">
+          <i className="fas fa-at"></i>
+          <p>Email</p>
+        </a>
+        <a href="https://www.instagram.com/jgraham12345/">
           {" "}
-          <p>Email: placeholer.com</p>
-        </i>
-        <i className="fab fa-instagram">
-          {" "}
+          <i className="fab fa-instagram"></i>
           <p>Instagram</p>
-        </i>
-        <i className="fab fa-linkedin">
+        </a>
+        <a href="https://www.linkedin.com/in/jonathan-graham-8972314b/">
+          <i className="fab fa-linkedin"> </i>
           <p>LinkedIn</p>
-        </i>{" "}
+        </a>{" "}
       </div>
     </React.Fragment>
   );

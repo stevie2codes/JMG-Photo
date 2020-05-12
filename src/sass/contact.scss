@@ -1,5 +1,7 @@
 @import "../sass//variables";
 .contactCard {
+  display: block;
+  // flex-direction: column;
   width: 50vw;
   height: 100%;
   background-color: $white;
@@ -11,9 +13,13 @@
 }
 
 i {
-  font-size: 4vmin;
-  margin: 10px;
-  & p {
-    font-family: $primaryFont;
-  }
+  font-size: 8vmin;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  color: steelblue;
+}
+p {
+  font-family: $primaryFont;
+  color: $black;
 }
