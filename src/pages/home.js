@@ -1,8 +1,7 @@
 import React from "react";
 import "../sass/home.scss";
-// import mixImage from "../images/ladyGraph_2.1.1.jpg";
-// import mixVideo from "../images/colorful-compressed.mp4";
-import Earth from "../components/earth";
+import HomeIcon from "../components/homeIcon";
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -10,7 +9,7 @@ const Home = () => {
     <div>
       <div className="mainContainer">
         <div className="sectionDiv">
-          <Earth />
+          <HomeIcon />
         </div>
         <div className="card-columns home">
           <Link to="/portraits">

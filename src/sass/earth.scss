@@ -1,23 +1,20 @@
-#earth:focus {
-  border: none;
-  outline: none !important;
-}
+@import "./variables";
 
-.earthHero {
-  animation: reveal 2s ease-in forwards;
-
-  & :focus {
-    outline: none;
-  }
+.hero {
+  font-size: 80vh;
+  font-family: $thirdFont;
+  color: $white;
+  text-align: center;
+  animation: reveal 1s ease-in forwards;
 }
 
 @keyframes reveal {
   from {
     opacity: 0;
-    transform: scale3d(0, 0, 0);
+    // transform: scale3d(0, 0, 0);
   }
   to {
     opacity: 1;
-    transform: scale3d(1, 1, 1);
+    text-shadow: -2px -2px 5px white, 2px 2px 5px rgb(213, 211, 211);
   }
 }
