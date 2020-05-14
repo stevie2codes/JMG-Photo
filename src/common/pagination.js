@@ -4,7 +4,6 @@ import "../sass/paginations.scss";
 
 const Pagination = props => {
   const { itemsCount, pageSize, onPageChange, currentPage } = props;
-  console.log(currentPage);
 
   const pagesCount = Math.ceil(itemsCount / pageSize);
 
