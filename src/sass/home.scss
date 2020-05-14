@@ -104,13 +104,18 @@
 
 #logo {
   margin-top: 10%;
-  animation: fill ease-in 0.5s forwards 2s;
+  animation: fill ease-in 0.5s forwards 3s;
   stroke: transparent;
 }
 
 #logo path:nth-child(1) {
-  stroke-dasharray: 1791px;
-  stroke-dashoffset: 1791px;
+  stroke-dasharray: 1824.5px;
+  stroke-dashoffset: 1824.5px;
+  animation: draw 8s ease forwards;
+}
+#logo path:nth-child(2) {
+  stroke-dasharray: 1828.1px;
+  stroke-dashoffset: 1828.1px;
   animation: draw 8s ease forwards;
 }
 
