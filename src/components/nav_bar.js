@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 import NavIcon from "../components/navIcon";
 
 class NavBar extends Component {
-  // state = {  }
   render() {
-    // const logo = document.querySelectorAll("#logo path");
-    // for (let i = 0; i < logo.length; i++) {
-    //   console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
-    // }
     return (
       <React.Fragment>
         <nav className="navbar navbar-expand-md navbar-light">
@@ -61,7 +56,7 @@ class NavBar extends Component {
                   </Link>
 
                   <Link className="dropdown-item" to="/furryFriends">
-                    Furry Freinds
+                    Furry Friends
                   </Link>
                   <Link className="dropdown-item" to="/portraits">
                     Portraits
