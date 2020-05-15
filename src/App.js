@@ -3,6 +3,7 @@ import NavBar from "./components/nav_bar";
 import "./App.scss";
 import Home from "./pages/home";
 import Contact from "./pages/contact";
+import Loader from "./components/loader";
 import { BrowserRouter, Route } from "react-router-dom";
 const Landscape = lazy(() => import("./pages/landscape"));
 const Weddings = lazy(() => import("./pages/weddings"));
@@ -12,7 +13,7 @@ function App() {
   return (
     <React.Fragment>
       <div className="App">
-        <Suspense fallback={<h1>Loading Route...</h1>}>
+        <Suspense fallback={<Loader />}>
           <BrowserRouter>
             <NavBar />
             <Route exact path="/" component={Home} />
