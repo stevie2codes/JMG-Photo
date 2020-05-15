@@ -46,6 +46,8 @@ class Weddings extends React.Component {
                 showLoader={false}
                 easing="ease-in"
                 src={img.image}
+                animationDuration="1s"
+                placeholder
                 className="card-img-top"
                 onError={this.addDefaultSrc}
                 alt="weddings"
