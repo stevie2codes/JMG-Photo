@@ -1,7 +1,6 @@
 import React from "react";
 import "../sass/home.scss";
 import HomeIcon from "../components/homeIcon";
-
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -15,7 +14,7 @@ const Home = () => {
           <div className="card portraitCard hvrbox">
             <img
               className="card-img-top hvrbox-layer_bottom"
-              src="https://res.cloudinary.com/df9q0hnuw/image/upload/v1588904919/jg-photo/portraits/DSC_8551-Edit_1_tms0he.jpg"
+              src={require("../images/portraitsJG.jpg")}
               alt="portraits"
             />
             <div className="hvrbox-layer_top hvrbox-layer_slideup">
