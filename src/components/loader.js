@@ -1,13 +1,20 @@
 import React from "react";
 import "../sass/loader.scss";
+import Lottie from "react-lottie";
 
 const Loader = () => {
+  const LottieOptions = {
+    loop: true,
+    autoPlay: true,
+    renderer: "svg",
+    animationData: require("../animations/atlasLoader.json"),
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <div className="loadContainer">
-      <div className="loader">
-        <h1>A</h1>
-      </div>
-      <h2 className="m-2">Loading..</h2>
+      <Lottie options={LottieOptions} />
     </div>
   );
 };
