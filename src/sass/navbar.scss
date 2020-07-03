@@ -1,13 +1,9 @@
 @import "./variables";
 
-.brand {
-  width: 10vmax !important;
-}
-
 .nav-link {
   font-family: $thirdFont;
   color: $black !important;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   &:hover {
     color: steelblue !important;
@@ -16,20 +12,24 @@
 
 .dropdown-item {
   font-family: $primaryFont;
-  color: $white !important;
+  border: none;
+  color: $black !important;
   &:hover {
     color: $black !important;
   }
 }
 .navbar {
-  margin: auto;
+  position: absolute;
+  right: 0px;
+  top: 50px;
   background: transparent !important;
   z-index: 40;
 }
 
 .dropdown-menu {
-  background-color: $black !important;
-  color: $white !important;
+  background-color: transparent !important;
+  color: black !important;
+  border: none !important;
 }
 .navbar-toggler {
   color: steelblue !important;

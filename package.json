@@ -11,6 +11,7 @@
     "lodash": "^4.17.15",
     "node-sass": "^4.14.0",
     "react": "^16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
     "react-image-appear": "^1.2.23",
     "react-lottie": "^1.2.3",

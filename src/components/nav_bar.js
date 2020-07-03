@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <nav className="navbar navbar-expand-md navbar-light">
-          <Link to="/" className="navbar-brand ">
+          <Link to="/" className="navbar-brand ml-2 ">
             <NavIcon />
           </Link>
 

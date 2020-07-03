@@ -4,7 +4,7 @@ function NavIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="35vmin"
+      width="20vmin"
       height="100%"
       fill="none"
       viewBox="0 0 770 71"
