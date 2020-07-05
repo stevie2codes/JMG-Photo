@@ -7,19 +7,19 @@
   font-size: 1.2rem;
   font-family: $thirdFont;
   &:hover {
-    border-bottom: 1px solid steelblue;
-
     transform: scale(1.05);
   }
 }
 .active {
-  background-color: transparent;
+  background-color: steelblue;
+  border-radius: 50%;
   color: $white !important;
-  border-bottom: 1px solid steelblue;
-
-  width: 100%;
   transform: scale(1.1);
 }
 .btn:focus {
   outline: none !important;
+}
+
+.btn {
+  padding: 0.1rem 0.5rem;
 }
