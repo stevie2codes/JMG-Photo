@@ -24,9 +24,9 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </BrowserRouter>
 
-          <div style={{ color: "#212121" }} className="mx-auto copyright">
+          <div style={{ color: "#212121" }} className=" copyright">
             {"Copyright © "}
-            <a color="inherit" href="/">
+            <a href="/" style={{ color: "#212121" }}>
               Atlas-Photo
             </a>
             {"  "}

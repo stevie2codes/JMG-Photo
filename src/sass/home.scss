@@ -1,7 +1,7 @@
 @import "./variables";
 
 .homeContainer {
-  height: 470vh;
+  height: auto;
 }
 
 .bgImage {
@@ -95,9 +95,10 @@
   left: 50%;
   transform: translate(-50%);
   top: 100%;
+  z-index: 20;
 }
 .portraitCard {
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   cursor: pointer;
 }
 
