@@ -83,8 +83,8 @@
   transform: translate(-50%, -50%);
   animation: fill ease-in 1.5s forwards;
   font-family: $thirdFont;
-  color: #4b444c;
-  text-shadow: 0px 5px 20px grey;
+  color: $white;
+  text-shadow: 0px 10px 10px rgba(40, 40, 40, 0.379);
   white-space: nowrap;
   font-size: 10vmin;
 }
@@ -121,4 +121,11 @@
     color: rgb(208, 208, 208);
     text-shadow: 0px 5px 20px rgb(36, 36, 36);
   }
+}
+
+.scrollContainer {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
 }
