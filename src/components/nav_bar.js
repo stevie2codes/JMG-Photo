@@ -7,8 +7,8 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-md navbar-light">
-          <Link to="/" className="navbar-brand ml-2 ">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <Link to="/" className=" ml-2 ">
             <NavIcon />
           </Link>
 
@@ -32,7 +32,7 @@ class NavBar extends Component {
                 </Link>
               </li>
 
-              <li className="nav-item dropdown ">
+              <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="/portfolio"
