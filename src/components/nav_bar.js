@@ -7,11 +7,10 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-expand-lg navbar-light">
-          <Link to="/" className=" ml-2 ">
+        <nav className="navbar navbar-expand-md  navbar-light">
+          <Link to="/" className="navbar-brand">
             <NavIcon />
           </Link>
-
           <button
             className="navbar-toggler"
             type="button"
@@ -45,7 +44,7 @@ class NavBar extends Component {
                   portfolio
                 </Link>
                 <div
-                  className="dropdown-menu ml-5"
+                  className="dropdown-menu "
                   aria-labelledby="navbarDropdown"
                 >
                   <Link to="/landscapes" className="dropdown-item">
